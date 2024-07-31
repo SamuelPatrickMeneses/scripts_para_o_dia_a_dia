@@ -1,0 +1,2 @@
+#!/bin/bash
+docker run -it -v $(pwd):/var/www --rm php ./vendor/bin/phpcs ${@}

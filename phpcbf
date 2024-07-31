@@ -1,0 +1,2 @@
+#!/bin/bash
+docker run -w /var/www -v /tmp/nvim.samuel/:/tmp/nvim.samuel -v $(pwd):/var/www -it --rm php ./vendor/bin/phpcbf "${@}"
